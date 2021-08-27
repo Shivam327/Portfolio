@@ -182,3 +182,40 @@ nav .link-active {
 .footer .footericon {
   max-width: 40px;
 }
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: 7rem;
+  }
+  nav .nav-brand {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  nav .link {
+    color: white;
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  .hero {
+    position: relative;
+  }
+
+  .hero .hero-heading {
+    padding: 1.5rem;
+
+    font-size: 2.5rem;
+  }
+  .card {
+    margin: 1rem 1rem;
+  }
+  section {
+    margin: 0.5rem 1rem;
+  }
+  .container-center {
+    padding: 1rem;
+  }
+}
