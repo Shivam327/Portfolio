@@ -19,6 +19,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .container {
+  flex: 1;
   margin: 0 10rem;
 }
 nav {
@@ -160,6 +161,15 @@ nav .link-active {
 .section h1 {
   text-align: center;
 }
+/* main {
+  display: flex;
+} */
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 32px 16px;
+}
 .row {
   background-color: var(--tertiary);
   border-radius: 2rem;
@@ -228,6 +238,7 @@ nav .link-active {
   }
   .card {
     margin: 1rem 1rem;
+    flex: 1;
   }
   section {
     margin: 0.5rem 1rem;
